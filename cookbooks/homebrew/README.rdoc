@@ -1,0 +1,9 @@
+= DEPRECATION NOTICE
+
+Sadly I no longer use chef in my day-to-day work (the ops team at the last company
+I worked for chose Puppet and life is too short to keep several configuration
+management syntaxes/APIs in my head!) so this cookbook has fallen into disrepair.
+
+It is now being maintained by the Opscode team. See their fork here:
+
+https://github.com/opscode-cookbooks/homebrew
