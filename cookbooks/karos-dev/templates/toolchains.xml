@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF8"?>
+<toolchains>
+
+  <toolchain>
+     <type>jdk</type>
+     <provides>
+         <version>1.7</version>
+         <vendor>sun</vendor>
+         <id>JDK7</id>
+     </provides>
+     <configuration>
+        <jdkHome>/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home</jdkHome>
+     </configuration>
+  </toolchain>
+
+  <toolchain>
+     <type>jdk</type>
+     <provides>
+         <version>1.6</version>
+         <vendor>apple</vendor>
+         <id>default</id>
+     </provides>
+     <configuration>
+        <jdkHome>/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home</jdkHome>
+     </configuration>
+  </toolchain>
+
+</toolchains>
