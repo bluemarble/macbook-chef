@@ -5,11 +5,10 @@
      <type>jdk</type>
      <provides>
          <version>1.7</version>
-         <vendor>sun</vendor>
-         <id>JDK7</id>
      </provides>
      <configuration>
-        <jdkHome>/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home</jdkHome>
+        <jdkHome><%= @jdk7Home %>
+	</jdkHome>
      </configuration>
   </toolchain>
 
@@ -17,11 +16,9 @@
      <type>jdk</type>
      <provides>
          <version>1.6</version>
-         <vendor>apple</vendor>
-         <id>default</id>
      </provides>
      <configuration>
-        <jdkHome>/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home</jdkHome>
+        <jdkHome><%= @jdk6Home %></jdkHome>
      </configuration>
   </toolchain>
 
